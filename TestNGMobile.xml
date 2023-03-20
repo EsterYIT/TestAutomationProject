@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Mobile Suite" parallel="false">
+    <test name="Mobile tests">
+        <parameter name="PlatformName" value="mobile"/>
+        <parameter name="email" value="esyitzhakli1212@gmail.com"/>
+        <parameter name="password" value="12345678"/>
+        <classes>
+            <class name="sanity.TeamAppMobile"/>
+        </classes>
+    </test>
+</suite>

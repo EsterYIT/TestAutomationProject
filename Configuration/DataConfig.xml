@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Environment>
+    <!-- Timeout -->
+    <Timeout>5</Timeout>
+
+    <!--Authorization-->
+    <userName>es1212@gmail.com</userName>
+    <password>123456</password>
+
+    <!-- Web -->
+    <BrowserName>chrome</BrowserName>
+    <Url>https://react-redux.realworld.io/</Url>
+    <ImageRepo>C:/automation/AutomationProject/TestAutomationProject/ImageRepository/</ImageRepo>
+
+    <!--Mobile-->
+    <UDID>NJCMY9IN9HEYQKPB</UDID>
+    <AppPackage>com.example.teamapp</AppPackage>
+    <AppActivity>.HomePage</AppActivity>
+    <AppiumServer>http://localhost:4723/wd/hub</AppiumServer>
+
+    <!--Rest Api-->
+    <urlApi>https://api.github.com</urlApi>
+    <token>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</token>
+
+    <!-- Electron -->
+    <electronDriverPath>./Drivers/electrondriver.exe</electronDriverPath>
+    <electronAppPath>C:/Users/user/AppData/Local/Programs/todolist/Todolist.exe</electronAppPath>
+
+    <!-- DesktopApp -->
+    <appSignature>C:/Windows/System32/notepad.exe</appSignature>
+    <desktopUrl>http://localhost:4723</desktopUrl>
+
+    <!-- Data Driven Testing -->
+    <DDTFile>./DDTFiles/users.csv</DDTFile>
+
+    <!-- Database -->
+    <DBUrl>jdbc:mysql://localhost:3306/automation?serverTimezone=UTC</DBUrl>
+    <DBUsername>root</DBUsername>
+    <DBPassword>Es@liron#220894</DBPassword>
+
+    <!-- Data Driven Testing -->
+    <DDTFile>./DDTFiles/users.csv</DDTFile>
+</Environment>
