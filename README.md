@@ -29,16 +29,16 @@ The project is an example of infrastructure for automation testing of different 
 ***
 ### List of applications were used in this project:
 
-* Grafana webpage - Web based application
-* Mortgage calculator - Mobile application
-* Grafana API - Web API
+* Conduit webpage - Web based application
+* [TeamApp](https://github.com/EsterYIT/TeamApp) - Mobile application
+* GitHub API
 * Electron application
-* Windows calculator - Desktop application
+* Windows notepad - Desktop application
 
 ### Tools & Frameworks used in the project:
 * TestNG - Testing Framework
 * Listeners - interface used to generate logs and customize the TestNG reports
-* MySQL Free Online DB - used for login to Grafana web page
+* MySQL - used for login to Grafana web page
 * Jenkins- for tests execution
 * REST Assured - for API testing
 * Allure Reports - as the main reporting system
