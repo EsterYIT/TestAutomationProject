@@ -1,4 +1,4 @@
 # Full Stack Test Automation Project
 
 
-## This project created to show my knowledge and abilities in building automation infrastructure and creating test cases in differen platforms
+ This project created to show my knowledge and abilities in building automation infrastructure and creating test cases in different platforms
