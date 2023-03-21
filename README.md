@@ -47,6 +47,6 @@ The project is an example of infrastructure for automation testing of different 
 ### Tests Execution:
 Each of the applications has a few tests for demonstration purpose. These tests can be developed in a very simple way, due to a lot of work with the infrastructure. [Sanity Tests]
 
-Known Issues:
+### Known Issues:
 Sometimes can be conflicts with some dependencies the applications are using. Hence, the project is for DEMO purpose only. In production it should be divided into several projects.
 
