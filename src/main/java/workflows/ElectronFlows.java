@@ -34,7 +34,6 @@ public class ElectronFlows extends CommonOps {
     {
         addNewTask("Java");
         addNewTask("C#");
-        addNewTask("python");
         addNewTask("C++");
 
         WaitTimeUnit.Five00_MilliSecondWait();
