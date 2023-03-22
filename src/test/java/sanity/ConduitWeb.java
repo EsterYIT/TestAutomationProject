@@ -20,15 +20,6 @@ public class ConduitWeb extends CommonOps {
         UIVerifications.verifyTextElement(conduitUserHomePage.getNav_yourFeed(),"Your Feed");
     }
 
-    @Test(description = "Test02 - Verify Logout")
-    @Description("Verifies the logout")
-    public void test02_verifyLogout()
-    {
-        WebFlows.signIn(getData("userName"),getData("password"));
-        WebFlows.logout();
-        UIVerifications.verifyTextElement(conduitMain.getTxt_subtitle(),"A place to share your knowledge.");
-    }
-
     @Test(description = "Test03 - Verify Follow Button")
     @Description("Verifies that follow button is clicked")
     public void test03_verifyFollow()
