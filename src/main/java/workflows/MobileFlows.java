@@ -63,13 +63,18 @@ public class MobileFlows extends CommonOps {
     public static int leaveAGroup()
     {
         int listSize = 0;
-        try {
-            listSize = teamAppMain.getList_teams().size();
-            MobileActions.tap(teamAppMain.getList_teams().get(teamAppMain.getList_teams().size() - 1));
-            MobileActions.tap(overViewPage.getLogoutFromAGroup());
-            MobileActions.tap(overViewPage.getBtn_yes());
-        }catch (Exception e){
-            throw new IndexOutOfBoundsException("List Of Groups Is Empty, See Details: " + e.getMessage());
+        try{
+            MobileActions.tap(teamAppMain.getBtn_approveToContact());
+            MobileActions.tap(teamAppMain.getBtn_approveToGallery());
+        }catch (Exception ex){
+            try {
+                listSize = teamAppMain.getList_teams().size();
+                MobileActions.tap(teamAppMain.getList_teams().get(teamAppMain.getList_teams().size() - 1));
+                MobileActions.tap(overViewPage.getLogoutFromAGroup());
+                MobileActions.tap(overViewPage.getBtn_yes());
+            }catch (Exception e){
+                throw new IndexOutOfBoundsException("List Of Groups Is Empty, See Details: " + e.getMessage());
+            }
         }
         return listSize;
     }

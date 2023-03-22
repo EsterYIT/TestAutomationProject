@@ -33,6 +33,19 @@ public class MainPage {
     @AndroidFindBy(xpath="//*[@contentDescription='Close navigation drawer']")
     private AndroidElement closeDrawer;
 
+    @AndroidFindBy(id="permission_allow_button")
+    private AndroidElement btn_approveToContact;
+
+    @AndroidFindBy(id="permission_allow_button")
+    private AndroidElement btn_approveToGallery;
+
+    public AndroidElement getBtn_approveToContact() {
+        return btn_approveToContact;
+    }
+
+    public AndroidElement getBtn_approveToGallery() {
+        return btn_approveToGallery;
+    }
 
     public AndroidElement getCloseDrawer() {
         return closeDrawer;
