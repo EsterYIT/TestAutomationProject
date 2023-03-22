@@ -29,16 +29,21 @@ public class ElectronFlows extends CommonOps {
         }
     }
 
-    @Step("Business Flow: Drag And Drop A Task")
-    public static void dragAndDrop()
+    @Step("Business Flow: RGB Header Colors")
+    public static boolean RGBColors(String R, String G, String B)
     {
-        addNewTask("Java");
-        addNewTask("C#");
-        addNewTask("C++");
+        boolean equals = false;
+        UIActions.click(todoMain.getEditor_headerBg());
+        UIActions.click(todoMain.getAllHeaderColors().get(6));
+        String bgColor = todoMain.getBg_header().getAttribute("style").split(("\\("))[1];
+        String red = bgColor.split(",")[0];
+        String green = bgColor.split(",")[1];
+        String blue = bgColor.split(",")[2].split(("\\)"))[0];
 
-        WaitTimeUnit.Five00_MilliSecondWait();
-        int last = getNumberOfTasks()-1;
-        UIActions.dragAndDrop(todoMain.getList_dragAndDrop().get(last),todoMain.getList_dragAndDrop().get(0));
+        if(R.equals(red.trim()) && G.equals(green.trim()) && B.equals(blue.trim()))
+            equals = true;
+
+        return equals;
     }
 
     @Step("Business Flow: Mark Task Complete")

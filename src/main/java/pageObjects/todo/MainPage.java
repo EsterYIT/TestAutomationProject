@@ -38,6 +38,27 @@ public class MainPage {
     @FindBy(css = ".handle.dragIcon_1L0_R")
     private  List<WebElement> list_dragAndDrop;
 
+    @FindBy(className = "wrapper_2r1C1")
+    private WebElement bg_header;
+
+    @FindBy(xpath = "//div[@class='icons_MDNeU']//*[name()='svg'][1]")
+    private WebElement editor_headerBg;
+
+    @FindBy(xpath = "//div[@class='vc-sketch-presets']/div")
+    private List<WebElement> allHeaderColors;
+
+    public List<WebElement> getAllHeaderColors() {
+        return allHeaderColors;
+    }
+
+    public WebElement getEditor_headerBg() {
+        return editor_headerBg;
+    }
+
+    public WebElement getBg_header() {
+        return bg_header;
+    }
+
     public List<WebElement> getList_dragAndDrop() {
         return list_dragAndDrop;
     }

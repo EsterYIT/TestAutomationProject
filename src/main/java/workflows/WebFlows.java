@@ -32,13 +32,6 @@ public class WebFlows extends CommonOps {
         UIActions.updateText(conduitSignIn.getField_signInEmail(), cred.get(0));
         UIActions.updateText(conduitSignIn.getField_signInPassword(), cred.get(1));
         UIActions.click(conduitSignIn.getBtn_signIn());
-
-//        for(String key: cred.keySet()){
-//            UIActions.updateText(conduitSignIn.getField_signInEmail(), key);
-//            UIActions.updateText(conduitSignIn.getField_signInPassword(), cred.get(key));
-//            UIActions.click(conduitSignIn.getBtn_signIn());
-//            WaitTimeUnit.threeSecondWait();
-//        }
     }
 
     @Step("Business Flow: Sign Up")

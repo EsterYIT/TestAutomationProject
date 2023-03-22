@@ -3,6 +3,7 @@ package sanity;
 import extentions.UIVerifications;
 import extentions.WaitTimeUnit;
 import io.qameta.allure.Description;
+import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import utilities.CommonOps;
@@ -22,13 +23,12 @@ public class TodoElectron extends CommonOps {
         UIVerifications.verifyNumber(getNumberOfTasks(),1);
     }
 
-    @Test(description = "Test02 - Drag Last Task To First Line")
-    @Description("This test verifies that last task will be at the top of the tasks list")
-    public void test02_lastTaskAtTheTopOfList()
+    @Test(description = "Test02 - Change Header Color")
+    @Description("This test verifies that header color has been changed to the selected color by RGB")
+    public void test02_changeHeaderColor()
     {
-        ElectronFlows.dragAndDrop();
-        String actual = todoMain.getList_tasks().get(0).getText().split("\n")[1];
-        UIVerifications.verifyTextInText(actual,"C++");
+        boolean result = ElectronFlows.RGBColors("189","16","224");
+        Assert.assertTrue(result);
     }
 
     @Test(description = "Test03 - Mark Task In 'V' And Verify That Task Is Not In Todo Tasks List")

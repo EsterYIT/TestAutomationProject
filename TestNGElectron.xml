@@ -4,7 +4,11 @@
     <test name="Electron tests">
         <parameter name="PlatformName" value="electron"/>
         <classes>
-            <class name="sanity.TodoElectron"/>
+            <class name="sanity.TodoElectron">
+                <methods>
+                    <include name="test02_changeHeaderColor"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>

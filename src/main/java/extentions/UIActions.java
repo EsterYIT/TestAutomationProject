@@ -4,6 +4,8 @@ import io.qameta.allure.Step;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import utilities.CommonOps;
@@ -64,6 +66,12 @@ public class UIActions extends CommonOps {
     public static void dragAndDrop(WebElement elem1, WebElement elem2)
     {
         action.dragAndDrop(elem1,elem2).build().perform();
+    }
+
+    @Step("Right Click")
+    public static void rightClick()
+    {
+        action.contextClick();
     }
 
     @Step
