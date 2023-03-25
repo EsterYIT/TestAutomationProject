@@ -4,7 +4,7 @@ package sanity;
 import extentions.MobileActions;
 import extentions.MobileVerifications;
 import extentions.UIVerifications;
-import jdk.jfr.Description;
+import io.qameta.allure.Description;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;

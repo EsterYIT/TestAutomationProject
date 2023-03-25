@@ -1,7 +1,7 @@
 package sanity;
 
 import extentions.UIVerifications;
-import jdk.jfr.Description;
+import io.qameta.allure.Description;
 import org.sikuli.script.FindFailed;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
