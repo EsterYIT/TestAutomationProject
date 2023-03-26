@@ -32,7 +32,7 @@ public class MobileFlows extends CommonOps {
     }
 
     @Step("Verify User Name Updated")
-    public static String  updateUsername(String name)
+    public static String updateUsername(String name)
     {
         MobileActions.tap(teamAppMain.getOpenDrawer());
         MobileActions.tap(drawerMain.getDrawer_editProfile());
