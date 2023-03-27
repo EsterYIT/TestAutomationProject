@@ -20,7 +20,7 @@
 
     <!--Rest Api-->
     <urlApi>https://api.github.com</urlApi>
-    <token>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</token>
+    <token>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</token>
 
     <!-- Electron -->
     <electronDriverPath>./Drivers/electrondriver.exe</electronDriverPath>
