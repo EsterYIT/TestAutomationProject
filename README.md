@@ -51,5 +51,6 @@ Each of the applications has a few tests for demonstration purpose. These tests 
 Sometimes can be conflicts with some dependencies the applications are using. Hence, the project is for DEMO purpose only. In production it should be divided into several projects.
 
 ### Jenkins Dashboard
-![Uploading ‏‏צילום מסך (64).png…]()
+![‏‏צילום מסך ](https://user-images.githubusercontent.com/106423697/227881465-0b688eee-4d59-4719-8201-d80ff78460a0.png)
+
 
