@@ -25,7 +25,7 @@ public class NotepadDesktop extends CommonOps {
     {
         DesktopFlows.addText("Test Automation");
         DesktopFlows.switchWords("Test" , "Automation");
-        UIVerifications.verifyTextElement(notepadMain.getField_edit(), "Automation Automationnnnn");
+        UIVerifications.verifyTextElement(notepadMain.getField_edit(), "Automation Automation");
     }
 
     @Test(description = "Test03 - Verify Row Number Does Not Exist")
