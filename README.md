@@ -1,5 +1,5 @@
 # Full Stack Test Automation Project
-[Demo](https://drive.google.com/file/d/12booDt7C_vKf6s6byIivB26VsIaC3Bmz/view?usp=sharing)
+[Desktop Test Automation - Demo](https://drive.google.com/file/d/12booDt7C_vKf6s6byIivB26VsIaC3Bmz/view?usp=sharing)
 
 ### This project created to demonstrate my knowledge and skills in Automation Testing
 ***
