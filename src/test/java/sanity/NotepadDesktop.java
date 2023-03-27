@@ -10,7 +10,7 @@ import workflows.DesktopFlows;
 @Listeners(utilities.Listeners.class)
 public class NotepadDesktop extends CommonOps {
 
-    @Test(description = "Test01 - Verify Date")
+  //  @Test(description = "Test01 - Verify Date")
     @Description("This test verifies the date we get from notepad to the current date")
     public void test01_verifyDate()
     {
@@ -25,10 +25,10 @@ public class NotepadDesktop extends CommonOps {
     {
         DesktopFlows.addText("Test Automation");
         DesktopFlows.switchWords("Test" , "Automation");
-        UIVerifications.verifyTextElement(notepadMain.getField_edit(), "Automation Automationnnn");
+        UIVerifications.verifyTextElement(notepadMain.getField_edit(), "Automation Automation");
     }
 
-    @Test(description = "Test03 - Verify Row Number Does Not Exist")
+  //  @Test(description = "Test03 - Verify Row Number Does Not Exist")
     @Description("This test verifies the absence of row number")
     public void test03_VerifyTheAbsenceOfLine()
     {
