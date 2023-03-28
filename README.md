@@ -51,7 +51,8 @@ Each of the applications has a few tests for demonstration purpose. These tests 
 ### Known Issues:
 Sometimes can be conflicts with some dependencies the applications are using. Hence, the project is for DEMO purpose only. In production it should be divided into several projects.
 
-### Jenkins Dashboard
+### Jenkins Dashboard:
+
 ![jenkins dashboard](https://user-images.githubusercontent.com/106423697/228176437-c9c6a59d-c0aa-48bb-b32b-cb1b6d674ee8.png)
 
 
