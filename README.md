@@ -46,12 +46,14 @@ The project is an example of infrastructure for automation testing of different 
 * Sikuli - for visual testing
 
 ### Tests Execution:
-Each of the applications has a few tests for demonstration purpose. These tests can be developed in a very simple way, due to a lot of work with the infrastructure. [Sanity Tests](https://github.com/EsterYIT/TestAutomationProject/tree/master/src/test/java/sanity)
+Each of the applications has a few tests for demonstration purpose. These tests can be developed in a very simple way, due to a lot of work with the infrastructure. [[Sanity Tests]](https://github.com/EsterYIT/TestAutomationProject/tree/master/src/test/java/sanity)
 
 ### Known Issues:
 Sometimes can be conflicts with some dependencies the applications are using. Hence, the project is for DEMO purpose only. In production it should be divided into several projects.
 
-### Jenkins Dashboard
-![‏‏צילום מסך ](https://user-images.githubusercontent.com/106423697/227881465-0b688eee-4d59-4719-8201-d80ff78460a0.png)
+### Jenkins Dashboard:
+
+![jenkins dashboard](https://user-images.githubusercontent.com/106423697/228176437-c9c6a59d-c0aa-48bb-b32b-cb1b6d674ee8.png)
+
 
 
