@@ -14,7 +14,7 @@ import java.sql.SQLException;
 @Listeners(utilities.Listeners.class)
 public class ConduitWebDB extends CommonOps {
 
-    @Test(description = "Test01 - Login to grafana with DB credentials")
+    @Test(description = "Test01 - Login to conduit web with DB credentials")
     @Description("This test login  with DB credentials and verifies user name")
     public void test01_loginDBAndVerifyUsername() throws SQLException {
         WebFlows.signInFromDB();

@@ -18,8 +18,6 @@ public class DBActions extends CommonOps {
         credentials.add(rs.getString(1));
         credentials.add(rs.getString(2));
 
-        System.out.println("====== " + credentials);
-
         return credentials;
     }
 }
