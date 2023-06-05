@@ -18,7 +18,8 @@ public class UserHeadPage {
     private WebElement txt_settings;
 
     @FindBy(how = How.XPATH, using = "//ul[@class='nav navbar-nav pull-xs-right']/li")
-    private List<WebElement> list_headPage;
+    private List<WebElement>
+            list_headPage;
 
     @FindBy(how = How.XPATH, using = "//img[@src='https://api.realworld.io/images/smiley-cyrus.jpeg']")
     private WebElement txt_editProfile;

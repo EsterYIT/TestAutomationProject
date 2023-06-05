@@ -15,7 +15,7 @@ public class ApiGithub extends CommonOps {
     @Description("Verifies the name of the repository in the second place")
     public void test01_verifyGetCommand()
     {
-        UIVerifications.verifyTextInText(ApiFlows.getTeamProperty("name[2]"),"TestAutomation");
+        UIVerifications.verifyTextInText(ApiFlows.getTeamProperty("name[2]"),"Resume");
     }
 
     @Test(description = "Test02 - Verify Repo Is Created")
